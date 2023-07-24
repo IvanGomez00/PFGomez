@@ -1,7 +1,7 @@
 // --------- MAIN INDEX ---------------
 
 main .div-index{
-    background: #eedfdf5d;
+    background-image: linear-gradient(-45deg, #ffc796 0%, #ff6b95d9 100%);
     padding: 10px;
     border-radius: 10px;
     border: none;
@@ -37,7 +37,7 @@ div.botones button{
 }
   .botones button:hover,
   .botones button:focus{
-    background: #AF0404;
+    background: #fc6076;
     color: black;
     transition: background-color 1s ease-out;
     outline: 0;
