@@ -1,0 +1,44 @@
+body h1,
+body h2,
+body h3,
+body h4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+
+}
+
+/* ------INDEX------ */
+body.index {
+    background-image: url(../recursos/imagenes/hero3.jpg);
+    background-attachment: fixed;
+    
+}
+
+
+/* ------  SERVICIOS ------- */
+
+.body-servicios {
+    background-image: url(../recursos/imagenes/hero.jpg);
+    background-attachment: fixed;
+    
+}
+
+/* ------    SOBRE MI  ------ */
+
+body.sobre-mi {
+    background-image: url(../recursos/imagenes/hero5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+
+/* ------  CONTACTO  ------- */
+
+body.contacto{
+    background: #414141;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    }

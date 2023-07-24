@@ -1,0 +1,27 @@
+/* ----FOOTER---- */
+footer {
+    width: 100%;
+    max-height: 9vh;
+    min-height: 8vh;
+    margin: 0 auto;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgba(49, 47, 47, 0.8);
+}
+
+footer .div-footer{
+   
+    position: relative;
+}
+.div-footer a{
+   margin: auto;
+   padding: 10px;
+}
+.div-footer p{
+margin: auto;
+
+
+}

@@ -1,0 +1,50 @@
+// --------- MAIN INDEX ---------------
+
+main .div-index{
+    background: #eedfdf5d;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.index p{
+    color: white;
+    text-align: center;
+
+    
+}
+
+body.index main.index {
+    display: flex;
+    height: 100vh;
+  align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.botones button{
+    margin: 25px;
+
+}
+
+.boton-contacto,
+.boton-cv{
+    border: none;
+    padding: 15px;
+    width: 150px;
+    background-color: #068FFF;
+
+}
+  .botones button:hover,
+  .botones button:focus{
+    background: #AF0404;
+    color: black;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+
+
+div.botones a{
+text-decoration: none;
+}

@@ -1,0 +1,125 @@
+/* ------  CONTACTO  ------- */
+main.main-contacto {
+    padding: 5px;
+
+}
+
+div.body-formulario {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 1.5em;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 25px;
+}
+
+div.div-contacto {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+
+}
+
+.div-formulario {
+    padding: 20px;
+    background: #222222;
+}
+
+.div-formulario form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.div-formulario form .largo {
+    grid-column: 1/3;
+}
+
+.div-formulario form p {
+    margin: 0;
+    padding: 1em;
+}
+
+
+
+.div-formulario form button,
+.div-formulario form input,
+.div-formulario form textarea {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid #AF0404;
+}
+
+.div-formulario form button {
+    background: #AF0404;
+    color: black;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px;
+
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.div-formulario form button:hover,
+.div-formulario form button:focus {
+    background: #e72c2c;
+    color: white;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+
+.contacto-info {
+    padding: 20px;
+    background: black;
+}
+
+.contacto-info h4,
+.contacto-info ul,
+.contacto-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.contacto-info ul {
+    list-style: none;
+    padding: 2px;
+}
+
+.contacto-info ul li {
+    padding: 3px;
+}
+
+
+
+/* MEDIA QUERY LARGE SCREEN CONTACTO */
+@media (min-width: 700px) {
+
+    main {
+        padding: 0 4rem;
+    }
+
+    .div-contacto {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .contacto-info h4,
+    .contacto-info ul,
+    .contacto-info p {
+        padding: 2em;
+        text-align: left;
+    }
+}
