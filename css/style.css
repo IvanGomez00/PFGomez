@@ -249,6 +249,12 @@ main .texto {
 main .texto p {
   font-weight: 500; }
 
+@media (min-width: 1024px) {
+  section.carrusel img {
+    width: 500px;
+    height: auto;
+    margin: auto; } }
+
 /* ------  PORTAFOLIO  ------- */
 .main-porfolio h2 {
   padding: 10px;
