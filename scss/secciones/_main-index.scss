@@ -48,3 +48,37 @@ div.botones button{
 div.botones a{
 text-decoration: none;
 }
+
+
+@media (max-width: 575px) {
+
+   
+div.botones button{
+    margin: 10px;
+
+}  
+
+main .div-index{
+    padding: 5px;
+    margin: 10px;
+}
+
+
+.boton-contacto{
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding: 15px 80px;
+    width: 75px;
+    background-color: #068FFF;
+}
+
+.boton-cv{
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    padding: 15px 80px;
+    margin: auto;
+}
+    
+}
